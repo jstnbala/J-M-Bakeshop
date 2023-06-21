@@ -1,0 +1,228 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J&M Bakeshop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="product1.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+
+    <style>
+        @font-face {
+            font-family: Agrandir-Regular;
+            src: url(font/Agrandir/Agrandir-Regular.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-Narrow;
+            src: url(font/Agrandir/Agrandir-Narrow.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-ThinItalic;
+            src: url(font/Agrandir/Agrandir-ThinItalic.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-Bold;
+            src: url(font/Agrandir/Agrandir-TextBold.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-Thin;
+            src: url(font/Agrandir/Agrandir-Thin.ttf);
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+              <img src="logo/logo-long.png" alt="Logo of J&M" class="logo">
+              <ul class="nav-links">
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/about.html">ABOUT</a></li>
+                <li class="dropdown">
+                  <a href="product1.html" class="dropbtn">PRODUCTS</a>
+                  <div class="dropdown-content">
+                    <a href="product1.html">FONDANT CAKES</a>
+                    <a href="product2.html">ICING CAKES</a>
+                  </div>
+                </li>
+                <li><a href="/review.html">REVIEW</a></li>
+                <li><a href="/contact.html">CONTACT</a></li>
+              </ul>
+              <div class="menu-icon"  onclick="toggleNavLinks()">
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line"></span>
+              </div>
+            </div>
+        </nav>
+        <div class="overlay" data-aos="fade-left">
+            <h1 class="Header">Fondant <span class="fondant-span">Chocolate</span><br><span class="fondant-span">Moist </span>Cakes</h1>
+            </div>
+    </header>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <div class="body-wrapper"></div>
+
+    
+    <!-- Main item container -->
+    <div id="iframe-container" data-aos="fade-right" data-aos-duration="800">
+        <iframe src="Product1/fondant1.html" name="myFrame" width="1000" height="500" frameborder="0" scrolling="no"></iframe>
+    </div> 
+        
+        
+
+        <section id="slider" data-aos="fade-up" data-aos-duration="500">
+            <div class="containers"> 
+                <div class="subcontainer">
+                    <div class="slider-wrapper">
+                      <div class="controller">
+                      </div>
+                      <br><br><br><br><br>
+                      <div id="controls">
+                        <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
+                        <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+                      </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="my-slider">
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-1">
+                                    <a href="Product1/fondant1.html" target="myFrame" onclick="scrollToProduct()">Learn More</a>
+                                </div>
+                                <br>
+                                <div class="description-container">
+                                    <h1 class="carousel-title">Cars-Themed Fondant Cake</h1>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-2">
+                                    <a href="Product1/fondant2.html" target="myFrame" onclick="scrollToProduct()">Learn More</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h1 class="carousel-title">3D Space Planet-Themed Fondant</h1>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-3">
+                                    <a href="Product1/fondant3.html" target="myFrame" onclick="scrollToProduct()">Learn More</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h1 class="carousel-title">Valorant-Themed Fondant Cake</h1>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-4">
+                                    <a href="Product1/fondant4.html" target="myFrame" onclick="scrollToProduct()">Learn More</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h1 class="carousel-title">Spiderman-Themed Fondant Cake</h1>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-5">
+                                    <a href="Product1/fondant5.html" target="myFrame" onclick="scrollToProduct()">Learn More</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h1 class="carousel-title">Pokemon-Themed Fondant Cake</h1>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <script src ="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script>
+        // Function to toggle the visibility of navigation links
+        function toggleNavLinks() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+        }
+
+        // Function to reset the visibility of navigation links
+        function resetNavLinks() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.classList.remove('show');
+        }
+
+        // Event listener that triggers when the window is resized
+        window.addEventListener('resize', function() {
+            // Check if the window width is greater than 768 pixels
+            if (window.innerWidth > 768) {
+            // If true, reset the visibility of navigation links
+            resetNavLinks();
+            }
+        });
+    </script>
+     
+    
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer class="footer">
+    <div class="footer-container">
+    <div class="left-section">
+    <div class="footer-branding">
+    <img src="logo/logo.png">
+    <h1>J&M Bakeshop</h1>
+    </div>
+    <p class="copyright">&copy; 2023 J&M Bakeshop. All Rights Reserved.</p>
+    </div>
+    <div class="right-section">
+    <div class="address">
+    <p>28 Everest St. Hacienda Heights, Concepcion Dos</p>
+    <p>Marikina City, 1800</p>
+    </div>
+    <div class="contact-details">
+    <p>(+63) 657 7475 473</p>
+    <p>info@jandmbakeshop.com</p>
+    </div>
+    <div class="social-media">
+        <a style="color: rgb(36, 36, 36);" target=”_blank” href="https://www.facebook.com/jandmbakeshop"><i class="fa-brands fa-facebook fa-lg"</i></i></a>
+        <a style="color: rgb(36, 36, 36);" target=”_blank” href="https://www.instagram.com/j.and.mbakeshop/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+    </div>
+    </div> 
+    </div>
+    </footer>
+</html>

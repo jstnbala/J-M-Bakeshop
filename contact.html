@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Contact </title>
+    <!-- add icon link -->
+  
+
+    <link rel = "stylesheet" href = "css/contact.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!---------------Define custom font families (AGRANDIR) -------------------------> 
+    <style>
+        @font-face {
+            font-family: Agrandir-Regular;
+            src: url(font/Agrandir/Agrandir-Regular.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-Narrow;
+            src: url(font/Agrandir/Agrandir-Narrow.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-ThinItalic;
+            src: url(font/Agrandir/Agrandir-ThinItalic.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-Bold;
+            src: url(font/Agrandir/Agrandir-TextBold.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-Thin;
+            src: url(font/Agrandir/Agrandir-Thin.ttf);
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar-container">
+          <img src="assets/about-page/logo-long.png" alt="Logo of J&M" class="logo">
+          <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="products/product1.html">PRODUCTS</a></li>
+            <li><a href="review.html">REVIEW</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+          <div class="menu-icon" onclick="toggleNavLinks()">
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line"></span>
+          </div>
+        </div>
+    </nav>
+
+    <div class="sticker-container">
+        <div class="sticker">
+            <img data-aos="zoom-in"  data-aos-duration="1200" src="assets/stickers/sticker5.png">
+          </div>
+    </div>
+      
+
+    <div class="container">
+
+        <div class="contact_data2" data-aos="fade-up"  data-aos-duration="1500">
+
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <strong>Location:</strong>
+              <p>28 Everest St. Hacienda Heights, Concepcion Dos, Marikina City</p>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <strong>Email:</strong>
+              <p>info@jandmbakeshop.com</p>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <strong>Call:</strong>
+              <p>(+63) 657 7475 473</p>
+            </li> 
+          </ul>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.2312965722326!2d121.11611094708016!3d14.642807749471627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b9a62298edf1%3A0x722ffd173e061260!2s28%20Everest%20St%2C%20Marikina%2C%201800%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1686888129840!5m2!1sen!2sph"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+        </div>
+
+        <div class="contact_data" data-aos="fade-up"  data-aos-duration="1500">
+          <h2>We'd love to hear your thoughts!</h2>
+
+          <form action="#">
+            <label for="">Name</label>
+            <input type="text" />
+            <label for="">Email</label>
+            <input type="email" />
+            <label for="">Subject</label>
+            <input type="text" />
+            <label for="">Message</label>
+            <textarea name="" id="" cols="30" rows="05"></textarea>
+            <button>Send Message</button>
+          </form>
+
+        </div>
+
+    </div>
+
+    <div class="customize-section">
+        <div class="cuztomize-heading" data-aos="fade-right"  data-aos-duration="400">
+            <h1><i>Want to order a cake?</i></h1>
+        </div>
+        <button data-aos="fade-up"  data-aos-duration="1500"><a class="form-link" target=”_blank” href="https://forms.gle/LADbWBxw5jVRkmvi7">HERE'S THE ORDER FORM!</a></button>
+        <Img data-aos="fade-right"  data-aos-duration="1500" src="assets/stickers/arrow1.png"/>
+    </div>
+
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="left-section">
+                <div class="footer-branding">
+                  <img src="logo/logo.png">
+                  <h1>J&M Bakeshop</h1>
+                </div>
+                <p class="copyright">&copy; 2023 J&M Bakeshop. All Rights Reserved.</p>
+            </div>
+            <div class="right-section">
+                <div class="address">
+                    <p>28 Everest St. Hacienda Heights, Concepcion Dos</p>
+                    <p>Marikina City, 1800</p>
+                </div>
+                <div class="contact-details">
+                    <p>(+63) 657 7475 473</p>
+                    <p>info@jandmbakeshop.com</p>
+                </div>
+                <div class="social-media">
+                  <a style="color: rgb(36, 36, 36);" target=”_blank” href="https://www.facebook.com/jandmbakeshop"><i class="fa-brands fa-facebook fa-lg"</i></i></a>
+                  <a style="color: rgb(36, 36, 36);" target=”_blank” href="https://www.instagram.com/j.and.mbakeshop/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+              </div>
+            </div> 
+        </div>
+      </footer>
+ 
+
+          
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+          <script>
+            // Function to toggle the visibility of navigation links
+            function toggleNavLinks() {
+                var navLinks = document.querySelector('.nav-links');
+                navLinks.classList.toggle('show');
+            }
+
+            // Function to reset the visibility of navigation links
+            function resetNavLinks() {
+                var navLinks = document.querySelector('.nav-links');
+                navLinks.classList.remove('show');
+            }
+
+            // Event listener that triggers when the window is resized
+            window.addEventListener('resize', function() {
+                // Check if the window width is greater than 768 pixels
+                if (window.innerWidth > 768) {
+                // If true, reset the visibility of navigation links
+                resetNavLinks();
+                }
+            });
+
+          </script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J&M Bakeshop</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+
+    <style>
+        @font-face {
+            font-family: Agrandir-Regular;
+            src: url(font/Agrandir/Agrandir-Regular.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-Narrow;
+            src: url(font/Agrandir/Agrandir-Narrow.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-ThinItalic;
+            src: url(font/Agrandir/Agrandir-ThinItalic.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-Bold;
+            src: url(font/Agrandir/Agrandir-TextBold.otf);
+        }
+
+        @font-face {
+            font-family: Agrandir-Thin;
+            src: url(font/Agrandir/Agrandir-Thin.ttf);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+          <img src="logo/logo-long.png" alt="Logo of J&M" class="logo">
+          <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li class="dropdown">
+              <a href="products/product1.html" class="dropbtn">PRODUCTS</a>
+              <div class="dropdown-content">
+                <a href="products/product1.html">FONDANT CAKES</a>
+                <a href="products/product2.html">ICING CAKES</a>
+              </div>
+            </li>
+            <li><a href="review.html">REVIEW</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+          <div class="menu-icon"  onclick="toggleNavLinks()">
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line"></span>
+          </div>
+        </div>
+    </nav>
+
+    <div class="wrapper" data-aos="fade-up">
+        <button class="arrow prev"><i class="ri-arrow-left-s-line"></i></button>
+        <button class="arrow next"><i class="ri-arrow-right-s-line"></i></button>
+        <div class="card-wrapper">
+            <div class="card-item">
+                <img src="assets/hero-section/hero1.png" alt="">
+            </div>
+            <div class="card-item">
+                <img src="assets/hero-section/hero2.png" alt="">
+            </div>
+            <div class="card-item">
+                <img src="assets/hero-section/hero3.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <section class="about-section">
+        <h1 class="about-heading" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000"><i>What do we even <br>bring to the table?</i></h1>
+        <div class="grid-container">
+         <div class="about-elements">
+             <div class="about-element" data-aos="fade-up" data-aos-delay="800">
+                 <img class="sticker1" src="assets/stickers/sticker1.png">
+                 <h1>quality</h1>
+                 <p>Cakes expertly crafted with care.</p>
+             </div>
+             <div class="about-element" data-aos="fade-up" data-aos-delay="900">
+                 <img class="sticker2" src="assets/stickers/sticker2.png">
+                 <h1>indulge</h1>
+                 <p>Cakes you can treat yourself on for a delightful experience.</p>
+             </div>
+             <div class="about-element" data-aos="fade-up" data-aos-delay="1000">
+                 <img class="sticker3" src="assets/stickers/sticker3.png">
+                 <h1 class="about-3">made with <br>love</h1>
+                 <p>Cakes infused with a heartfelt touch of passion and love.</p>
+             </div>
+         </div>
+        </div>
+        <div class="about-sec-cta">
+            <a class="about-us-page" data-aos="fade-right" href="about.html">ABOUT US</a>
+            <img class="arrow1" src="assets/stickers/arrow1.png">
+        </div>
+     </section>
+
+     <section class="products-section">
+        <div class="icing-section" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1500">
+            <div class="icing-container">
+                <img src="assets/product-preview/icing.png" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000"/>
+                <div class="icing-text-group">
+                    <h1>Icing <span class="icing-span">Chocolate</span><br><span class="icing-span">Moist </span>Cakes</h1>
+                    <p><i>Indulge in cakes adorned with a generous layer of icing,<br> creating a perfect balance of flavors that<br> will delight your taste buds!</i></p>
+                    <a class="shop-icing" href="products/product2.html">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="fondant-section" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1500">
+            <img src="assets/product-preview/fondant.png" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"/>
+            <div class="fondant-text-group">
+                <h1>Fondant <span class="fondant-span">Chocolate</span><br><span class="fondant-span">Moist </span>Cakes</h1>
+                <p><i>Handcrafted designs that not only please<br> the eyes, but also captivate the senses <br> with their rich and velvety taste!</i></p>
+                <a class="shop-fondant" href="products/product1.html">SHOP NOW</a>
+            </div>
+        </div>
+     </section>
+
+     <section class="reviews-section">
+        <div class="reviews-heading">
+            <h1 data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000"><i>What do our customers say?</i></h1>
+            <img src="assets/stickers/sticker4.png" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
+            <a class="testimonials-button" data-aos="fade-up" data-aos-delay="600" href="review.html">TESTIMONIALS</a>
+        </div>
+        <img class="reviews-arrow" data-aos="fade-left" data-aos-delay="700" src="assets/stickers/arrow2.png"/>
+     </section>
+
+     <section class="contacts-section" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
+        <div class="contacts-heading">
+            <img src="assets/stickers/sticker5.png">
+            <h1 class="contacts-header-text">got inquiries?<br>lightbulb moment?</h1>
+            <h1 class="contacts-cta" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">LET US KNOW!</h1>
+            <a class="contact-button" href="contact.html" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">CONTACT US</a>
+        </div>
+     </section>
+
+     <footer class="footer">
+        <div class="footer-container">
+            <div class="left-section">
+                <div class="footer-branding">
+                  <img src="logo/logo.png">
+                  <h1>J&M Bakeshop</h1>
+                </div>
+                <p class="copyright">&copy; 2023 J&M Bakeshop. All Rights Reserved.</p>
+            </div>
+            <div class="right-section">
+                <div class="address">
+                    <p>28 Everest St. Hacienda Heights, Concepcion Dos, <br>Marikina City, 1800</p>
+                </div>
+                <div class="contact-details">
+                    <p>(+63) 657 7475 473</p>
+                    <p>info@jandmbakeshop.com</p>
+                </div>
+                <div class="social-media">
+                    <a style="color: rgb(36, 36, 36);" target=”_blank” href="https://www.facebook.com/jandmbakeshop"><i class="fa-brands fa-facebook fa-lg"</i></i></a>
+                    <a style="color: rgb(36, 36, 36);" target=”_blank” href="https://www.instagram.com/j.and.mbakeshop/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </div>
+            </div> 
+        </div>
+      </footer>
+ 
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+    </script>
+    <script>
+
+        // codes for menu bar nav
+
+    // Function to toggle the visibility of navigation links
+        function toggleNavLinks() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+        }
+
+        // Function to reset the visibility of navigation links
+        function resetNavLinks() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.classList.remove('show');
+        }
+
+        // Event listener that triggers when the window is resized
+        window.addEventListener('resize', function() {
+            // Check if the window width is greater than 768 pixels
+            if (window.innerWidth > 768) {
+            // If true, reset the visibility of navigation links
+            resetNavLinks();
+            }
+        });
+
+
+        const cardWrapper = document.querySelector('.card-wrapper')
+        const cardWrapperChildren = Array.from(cardWrapper.children)
+        const widthToScroll = cardWrapper.children[0].offsetWidth
+        const arrowPrev = document.querySelector('.arrow.prev')
+        const arrowNext = document.querySelector('.arrow.next')
+        const cardBounding = cardWrapper.getBoundingClientRect()
+        const column = Math.floor(cardWrapper.offsetWidth / (widthToScroll + 24))
+        let currScroll = 0
+        let initPos = 0
+        let clicked = false
+
+        cardWrapperChildren.slice(column).reverse().forEach(item=> {
+        cardWrapper.insertAdjacentHTML('afterbegin', item.outerHTML)
+        })
+
+        cardWrapperChildren.slice(0, column).forEach(item=> {
+        cardWrapper.insertAdjacentHTML('beforeend', item.outerHTML)
+        })
+
+        const cardImage = cardWrapper.querySelectorAll('img')
+        cardImage.forEach(item=> {
+        item.setAttribute('draggable', false)
+        })
+
+        cardWrapper.classList.add('no-smooth')
+        cardWrapper.scrollLeft = cardWrapper.offsetWidth
+        cardWrapper.classList.remove('no-smooth')
+
+        arrowPrev.onclick = function() {
+        cardWrapper.scrollLeft -= widthToScroll
+        }
+
+        arrowNext.onclick = function() {
+        cardWrapper.scrollLeft += widthToScroll
+        }
+
+        cardWrapper.onmousedown = function(e) {
+        cardWrapper.classList.add('grab')
+        initPos = e.clientX - cardBounding.left
+        currScroll = cardWrapper.scrollLeft
+        clicked = true
+        }
+
+        cardWrapper.onmousemove = function(e) {
+        if(clicked) {
+            const xPos = e.clientX - cardBounding.left
+            cardWrapper.scrollLeft = currScroll + -(xPos - initPos)
+        }
+        }
+
+        cardWrapper.onmouseup = mouseUpAndLeave
+        cardWrapper.onmouseleave = mouseUpAndLeave
+
+        function mouseUpAndLeave() {
+        cardWrapper.classList.remove('grab')
+        clicked = false
+        }
+
+        let autoScroll
+        const initialScrollPos = cardWrapper.offsetWidth + widthToScroll; // Update initial scroll position
+
+        cardWrapper.scrollLeft = initialScrollPos; // Set initial scroll position
+
+        cardWrapper.onscroll = function() {
+        const scrollThreshold = widthToScroll / 2;
+
+        if (cardWrapper.scrollLeft <= 0) {
+            cardWrapper.scrollLeft = cardWrapper.scrollWidth - (widthToScroll * 2) + scrollThreshold;
+        } else if (cardWrapper.scrollLeft >= cardWrapper.scrollWidth - cardWrapper.offsetWidth) {
+            cardWrapper.scrollLeft = widthToScroll + scrollThreshold;
+        }
+
+        if (autoScroll) {
+            clearTimeout(autoScroll);
+        }
+
+        autoScroll = setTimeout(() => {
+            cardWrapper.scrollLeft += widthToScroll;
+
+            if (cardWrapper.scrollLeft >= cardWrapper.scrollWidth - cardWrapper.offsetWidth) {
+                cardWrapper.scrollLeft = widthToScroll + scrollThreshold;
+                    autoScroll = setTimeout(() => {
+                        cardWrapper.scrollLeft += widthToScroll;
+                    }, 2000);
+                }
+            }, 3000);
+        };
+
+    </script>
+</body
+

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Reviews </title>
+    
+      <!-- add icon link -->
+      <link rel = "J&M Bakeshop Icon" href = "assets/reviews-page/circle_logo.png" type = "business-icon">
+
+      <link rel = "stylesheet" href = "css/review.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+  
+      <!---------------Define custom font families (AGRANDIR) -------------------------> 
+      <style>
+          @font-face {
+              font-family: Agrandir-Regular;
+              src: url(font/Agrandir/Agrandir-Regular.otf);
+          }
+  
+          @font-face {
+              font-family: Agrandir-Narrow;
+              src: url(font/Agrandir/Agrandir-Narrow.otf);
+          }
+  
+          @font-face {
+              font-family: Agrandir-ThinItalic;
+              src: url(font/Agrandir/Agrandir-ThinItalic.otf);
+          }
+  
+          @font-face {
+              font-family: Agrandir-Bold;
+              src: url(font/Agrandir/Agrandir-TextBold.otf);
+          }
+  
+          @font-face {
+              font-family: Agrandir-Thin;
+              src: url(font/Agrandir/Agrandir-Thin.ttf);
+          }
+  
+      </style>
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <img src="logo/logo-long.png" alt="Logo of J&M" class="logo">
+      <ul class="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li class="dropdown">
+          <a href="products/product1.html" class="dropbtn">PRODUCTS</a>
+          <div class="dropdown-content">
+            <a href="products/product1.html">FONDANT CAKES</a>
+            <a href="products/product2.html">ICING CAKES</a>
+          </div>
+        </li>
+        <li><a href="review.html">REVIEW</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <div class="menu-icon"  onclick="toggleNavLinks()">
+        <span class="menu-icon__line"></span>
+        <span class="menu-icon__line"></span>
+        <span class="menu-icon__line"></span>
+      </div>
+    </div>
+  </nav>
+
+   <div class="main">
+    <div class="container">
+          <div class="testimonial-title"  data-aos="fade-left"  data-aos-duration="1500">
+              <h1><em> Top 3 Testimonials </h1> </em>
+              <p> Customers are absolutely <b><i> loaf-ing it </b></i> , and these reviews are the
+                <b><i> buttercream of the crop! </b></i> Take a bite and see for yourself </p> 
+      </div>
+
+        <div class="wrapper">
+            <div class="card" data-aos="fade-in"  data-aos-duration="1500">
+            <div class="card-icon">
+                <img src="assets/reviews-page/Customer1-Faye.png" class="customer-icon" 
+                          alt="" data-aos="fade-right"  data-aos-duration="1500">
+                
+            </div>
+            <div class="card-content"
+                          alt="" data-aos="fade-right"  data-aos-duration="1500">
+                <h1> Faye Ramos Sambo Llarenas </h1>
+                <p class="feedback"
+                          alt="" data-aos="fade-right"  data-aos-duration="1500">
+                  The best-customized cake I ever tasted. Try it guys you can request sa 
+                          sweetness ng cakes or the cupcakes😍😍😍And voila I really loved it😍😍😍 </p>
+
+                <div class="star-rating">
+                    <img src="assets/reviews-page/star-rating.png"  class="ratings" alt="" >
+                    <img src="assets/reviews-page/star-rating.png"  class="ratings" alt="" >
+                    <img src="assets/reviews-page/star-rating.png"  class="ratings" alt="" >
+                    <img src="assets/reviews-page/star-rating.png"  class="ratings" alt="" >        
+                    <img src="assets/reviews-page/star-rating.png"  class="ratings" alt="" >
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="assets/reviews-page/Customer2-Liza.png" class="customer-icon" alt="">
+            </div>
+            
+            <div class="card-content">
+              <h1> Liza Guevarra </h1>
+                <p class="feedback"> Thank you J&M Bakeshop!!! Sobrang accommodating ng owner. 
+                            Masarap ang pagkakagawa ng cakes, super affordable pa. Sa uulitin.</p>
+                <div class="star-rating">
+                    <img src="assets/reviews-page/star-rating.png" class="ratings" alt="">
+                    <img src="assets/reviews-page/star-rating.png" class="ratings" alt="">
+                    <img src="assets/reviews-page/star-rating.png" class="ratings" alt="">
+                    <img src="assets/reviews-page/star-rating.png" class="ratings" alt="">
+                    <img src="assets/reviews-page/star-rating.png" class="ratings" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="assets/reviews-page/Customer3-Karen.png" class="customer-icon" alt="">
+               
+            </div>
+            <div class="card-content">
+              <h1> Karen Cabrera </h1>
+                <p class="feedback">
+                    Just wanted to say a big thank you for the cake you made for my son’s 7th Birthday. It was perfect and tasted delicious. 
+                  We’ll definitely remember you for future orders. Many thanks, J&M Bakeshop!😍👍🏻</p>
+                <div class="star-rating">
+                    <img src="assets/reviews-page/star-rating.png"  class="ratings" alt="">
+                    <img src="assets/reviews-page/star-rating.png"  class="ratings" alt="">
+                    <img src="assets/reviews-page/star-rating.png"  class="ratings" alt="">
+                    <img src="assets/reviews-page/star-rating.png"  class="ratings" alt="">
+                    <img src="assets/reviews-page/star-rating.png"  class="ratings" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="slider">
+        <button class="active"></button>
+        <button></button>
+        <button></button>
+    
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="left-section">
+      <div class="footer-branding">
+        <img src="assets/reviews-page/circle_logo.png">
+        <h1>J&M Bakeshop</h1>
+      </div>
+      <p class="copyright">&copy; 2023 J&M Bakeshop. All Rights Reserved.</p>
+    </div>
+    <div class="right-section">
+      <div class="address">
+        <p>28 Everest St. Hacienda Heights, Concepcion Dos</p>
+        <p>Marikina City, 1800</p>
+      </div>
+      <div class="contact-details">
+        <p>(+63) 657 7475 473</p>
+        <p>info@jandmbakeshop.com</p>
+      </div>
+      <div class="social-media">
+        <a style="color: rgb(36, 36, 36);" target=”_blank” href="https://www.facebook.com/jandmbakeshop"><i class="fa-brands fa-facebook fa-lg"</i></i></a>
+        <a style="color: rgb(36, 36, 36);" target=”_blank” href="https://www.instagram.com/j.and.mbakeshop/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+    </div>
+    </div> 
+  </div>
+</footer>
+
+<script>
+  // Function to toggle the visibility of navigation links
+      function toggleNavLinks() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+      }
+
+        // Function to reset the visibility of navigation links
+        function resetNavLinks() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.classList.remove('show');
+        }
+
+        // Event listener that triggers when the window is resized
+        window.addEventListener('resize', function() {
+            // Check if the window width is greater than 768 pixels
+            if (window.innerWidth > 768) {
+            // If true, reset the visibility of navigation links
+            resetNavLinks();
+            }
+        });
+
+  const wrapper = document.querySelector('.wrapper');   /* selects the first element with the class "wrapper" from the DOM  */
+  const slider = Array.from(document.querySelectorAll('.slider button')); /* Selects slider class and "button" tag elements from DOM and converts NodeList to array with Array.from(). */
+
+  let currentReview = 0; /* represents the index of the currently active review. */
+
+  const SliderClick = (i) => {          
+  slider[currentReview].classList.remove('active');     // Remove active class from the currently active slider element
+  wrapper.style.marginLeft = `-${100 * i}%`;            // Update the margin-left property of the wrapper element to show the desired slide
+  slider[i].classList.add('active');                    // Add active class to the slider element at index i
+  currentReview = i;                                    // Update the value of currentReview with the new index i
+
+      };
+
+      slider.forEach((item, i) => {                                       // Attach click event listener to each slider button element
+          item.addEventListener('click', () => SliderClick (i));         // Invoke SliderClick function with index i as an argument
+
+  });
+
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

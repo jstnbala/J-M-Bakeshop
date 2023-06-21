@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+
+}
+
+body {
+   background-color:  #FFF2E6; 
+   background-image: url("/assets/about-page/bgabout.png");
+   
+}
+
+/* Style the navigation bar */
+
+/* navigation bar styles starts here */
+
+.navbar {
+  background-color: #f8e6d5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px;
+}
+
+.logo {
+width: 150px; 
+}
+
+.nav-links {
+display: flex;
+list-style: none;
+margin-right: 20px;
+align-items: center;
+justify-content: center;
+
+}
+
+.nav-links li {
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px 5px;
+text-align: center;
+
+}
+
+.nav-links li:hover {
+background-color:#F6D7BA;
+border-radius: 5px;
+
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-family: Agrandir Regular;
+font-size: 14px;
+
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #FFF2E6;
+min-width: 145px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+margin-top: 5px;
+z-index: 1;
+
+}
+
+.dropdown-content a {
+text-decoration: none;
+display: block;
+color: #333;
+padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+
+}
+
+.dropdown-content a:hover {
+background-color:#F6D7BA;
+border-radius: 1px;
+}
+
+.menu-icon {
+display: none;
+
+}
+
+.nav-links.show {
+display: block;
+position: absolute;
+right: 0;
+top: 100%;
+background-color: #f8e6d5;
+padding: 20px;
+line-height: 50px;
+border-radius: 4px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+@media screen and (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.menu-icon {
+display: block;
+cursor: pointer;
+}
+
+.menu-icon__line {
+display: block;
+width: 25px;
+height: 3px;
+margin: 5px;
+background-color: #333;
+}
+}
+
+/* navigation bar styles ends here */
+
+/* ----------------------------------- START OF ABOUT US --------------------------------------*/
+/*  This part presents various styles pertaining to the historical background of J&M Bakeshop. */
+
+.wrapper {
+    margin: 50px auto;
+    width: 90%;
+    animation: fade-in-wrapper 2s;
+   
+    
+}
+
+.wrapper img {
+    border-radius: 15px;
+    max-width: 500px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    box-shadow:  0 5px 10px rgb(40,40,40);
+    margin-bottom: 30px;
+    margin-right: 50px;
+    display: block;
+    height: auto;
+      
+}
+
+.text-box {
+    color: #000000;
+    text-align: center;
+    
+    
+}
+
+.text-box h4 {
+    color: transparent;
+    text-align: center;
+    font-family: Agrandir;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-top: 100px;
+    
+}
+.text-box h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Agrandir;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #423E3E;
+    
+}
+
+.text-box h2 em {
+    color:#423E3E;
+    font-weight: 300;
+    
+    
+}
+.text-box em {
+    font-family: 'IM Fell English', serif;
+    font-weight: 200;
+}
+.text-box p {
+    font-size: 17px;
+    text-align: center;
+    font-family: Agrandir Regular;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+    
+}
+
+/*  J&M Bakeshop introduces various types of objectives in this segment with the corresponding styles. */
+
+.container {
+    width: 100%;
+    margin-top: 90px;
+
+}
+
+.objectives {
+    width: 90%;
+    margin:auto;
+    animation: fade-in-objectives 2s;
+
+}
+
+.objectives .title {
+    width:70%;
+    text-align: center;
+    margin:auto;
+}
+
+.objectives .title h1 {
+    font-family: 'IM Fell English', serif;
+    font-size: 45px;
+    color: #423E3E;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+.objectives .title p {
+    color: black;
+    font-size: 18px;
+    font-family: Agrandir Regular;
+    letter-spacing: 1px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.content .card {
+    flex: 1;
+    margin: 40px 20px;
+}
+
+.content .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgb(40,40,40);
+}
+
+.content .card h4 {
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+    color: #F9B335;
+    font-size: 20px;
+    font-family: Agrandir Regular;
+    font-weight: 900;
+   
+    
+}
+
+.content .card p {
+    font-size: 15px;
+    margin-top: 10px;
+    color: black;
+    font-family: Agrandir Regular;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+    /* The purpose of this media query is to ensure that the 
+                website is adaptable and functional on various devices. */
+
+@media screen and (max-width: 768px) {
+
+    .content {
+        flex-direction: column;
+    }
+}
+
+/*  This section outlines the various styles for Vision and Mission. */
+
+
+
+.vision-mission {
+    margin: auto;
+    width: 90%;
+   
+
+}
+
+.vision-mission .vision-mission-title {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.vision-mission .vision-mission-title h1 {
+    font-size: 45px;
+    color: #423E3E;
+    font-weight: 400;
+    margin-top: 30px;
+    font-family: 'IM Fell English', serif;
+
+}
+.vision-mission .vision-mission-title p {
+    letter-spacing: 1px;
+    color: black;
+    font-size: 18px;
+    font-family: Agrandir Regular;
+}
+
+.vision-mission-content {
+    align-items: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.vision-mission-content .description {
+    flex: 1;
+    margin: 20px 30px;
+    
+}
+
+.vision-mission-content .description h2 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #F9B335;;
+    font-size: 27px;
+    font-family: Agrandir Regular;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+.vision-mission-content .description p {
+    font-size: 16px;
+    margin-top: 2px;
+    color: black;
+    font-family: Agrandir Regular;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+}
+    /* The purpose of this media query is to ensure that the 
+                website is adaptable and functional on various devices. */
+
+@media screen and (max-width: 768px) {
+    .vision-mission-content {
+        flex-direction: column;
+    }
+
+      
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-branding h1 {
+      font-size: 37px;
+  }
+
+  .footer-branding {
+      margin-left: -100px;
+  }
+
+  .right-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: -10rem
+  }
+
+  .address, .contact-details {
+      text-align: center;
+  }
+}
+
+/* ----------------------------------- END OF ABOUT US --------------------------------------*/
+footer {
+    background-color: #f8e6d5;
+    display: flex;
+    justify-content: center;
+    
+}
+
+ 
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8e6d5;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 200px;
+    font-family: Agrandir Regular;
+  }
+
+  .left-section {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+ 
+
+  .copyright {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .right-section {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .footer h2 {
+    margin-bottom: 5px;
+  }
+
+
+ 
+
+  .footer-branding {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+  }
+
+ 
+
+  .footer-branding img {
+    width: 15%;
+    height: auto;
+  }
+
+ 
+
+  .footer-branding h1 {
+    font-size: 54px;
+  }
+
+ 
